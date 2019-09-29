@@ -30,6 +30,13 @@ if (geld == 'ja'){
 		var vrij =(prompt('De bewaker loopt naar het kantoortje van de directeur, door het raam heen zie je hem geld geven. Als hij terug komt zegt hij mooi je bent vanaf nu vrij. Je moet echter nu het geld regelen. Je kan ook de directeur en bewaker verklikken aan de overheid wat doe je? (type geld als je het geld wilt regelen en verklikken als je wilt verklikken. '));
 			if (vrij == 'geld'){
 				var hoe =('Hoe ga je je geld verdienen, je kan gaan werken of je kan de bank overvallen. (Type werken om te werken en overvallen om de bank over te vallen.) ')
+				if (hoe == 'werken'){
+					alert('Je hebt geluk, je wordt meteen aangenomen als schoonmakers, je werkt 2 weken keihard en hebt precies 5000,- euro.')
+				}
+				else{
+					alert('Je koopt illegaal een geweer om de bank over te vallen. Helaas is dit een scam en 2 weken later staat de politie voor je deur, de bewaker heeft vertelt dat je ontsnapt bent. Je wordt gearresteert en zit weer terug in de cel.')
+				}
+
 
 			}
 			else{
@@ -42,6 +49,7 @@ if (geld == 'ja'){
 						alert('Je heb je eerste zin nog niet afgemaakt of je wordt door de corrupte bewaker neer geschoten.')
 					}
 			}
+
 		}
 			
 
@@ -58,10 +66,8 @@ else {
 
 		}
 		else{
-			var gevangenen = (prompt('Je ziet gevangen buiten op de buitenplaats en in de kantine staan. Waar ga je heen? (type buiten om naar buiten te gaan en kantine om naar de kantine te gaan.)'))
-				if (gevangen == 'buiten'){
-					var heli =(prompt('Zodra je naar buiten loopt wordt het g'))
-				}
-				else
+			alert('Je loopt naar buiten en ziet een grote chaos en hangen helikopers in de lucht en overal vliegen kogels. Je ziet een helikoper met een touw eronder hangen. Je pakt het touw en begimt te klimmen. Als je naar beneden kijkt zie je hoe hoog je bent en je valt flauw. Je valt meters naar beneden en overleeft dit niet.')
+
+				
 		}
 }
